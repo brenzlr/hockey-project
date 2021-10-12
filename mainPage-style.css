@@ -1,0 +1,67 @@
+.always-on-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1; /*stack order, higher means on top*/
+}
+.logo-row {
+    display: table;
+    clear: both;
+    width: 100%;
+    background-color: rgb(255, 255, 255); 
+}
+.logo-title {
+    display: inline-block;
+    text-align: center;
+    padding-left: 80px;
+    background-color: rgb(197, 30, 30); /*color is for testing purposes*/
+}
+.tab-row {
+    display: table;
+    clear: both;
+    padding: 8px 16px !important;
+    width: 100%;
+    background-color: rgb(71, 118, 219); 
+}
+.tab-col {
+    float: left;
+    width: 24%
+}
+.tab-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none; /*removes the underline on the text*/
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(71, 118, 219); /* color of the tabs text */
+}
+.tab-button:hover {
+    background-color: rgb(100, 149, 253); /* color when hovering over tab */
+}
+.page-background-and-fontsize {
+    font-size: 18px;
+    color: #000; /* color of the text on the page */
+    background-color: #f1faff; /* color of the page background */
+}
+.top-padding {
+    padding-top: 110px;
+}
+.container {
+    padding: 0.01em 16px;
+}
+.titles {
+    background-color: none;
+    color: black;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+    letter-spacing: 4px
+}
+.centered-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
