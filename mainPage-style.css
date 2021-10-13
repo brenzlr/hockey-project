@@ -65,3 +65,8 @@
     margin-right: auto;
     max-width: 700px;
 }
+.content-left{
+    text-align: left;
+    margin-right: auto;
+    max-width: 600px;
+}
